@@ -1,10 +1,5 @@
 ﻿using BiancasBikeShop.Repositories;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace BiancasBikeShop.Controllers
 {
@@ -19,27 +14,28 @@ namespace BiancasBikeShop.Controllers
             _bikeRepo = bikeRepo;
         }
 
-        // Uncomment this and finish these controller methods...
-        // 
-        // public IActionResult Get()
-        // {
-        //     // add implementation here... 
-        //     return Ok();
-        // }
+        //Uncomment this and finish these controller methods...
 
-        // 
-        // public IActionResult Get(int id)
-        // {
-        //     //add implementation here... 
-        //     return Ok();
-        // }
 
-        // 
-        // public IActionResult GetBikesInShopCount()
-        // {
-        //     //add implementation here...
+        public IActionResult Get()
+        {
+            // add implementation here... 
+            return Ok();
+        }
 
-        //     return Ok();
-        // }
+
+        public IActionResult Get(int id)
+        {
+            //add implementation here... 
+            return Ok();
+        }
+
+
+        public IActionResult GetBikesInShopCount()
+        {
+            //add implementation here...
+
+            return Ok();
+        }
     }
 }
